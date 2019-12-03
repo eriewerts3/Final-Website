@@ -1,0 +1,36 @@
+body {
+	background-image: url("Southeast.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: top, right;
+	color: #D5D9C7;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+	
+	
+}
+
+#wrapper { width: 60%; margin: auto;
+	background-color: #688E99;
+	background: rgba(104, 142, 153, 0.5);
+	
+}
+
+header { 
+	text-align: center;
+	
+}
+
+nav { text-align: center;
+	
+}
+
+nav a {text-decoration:none; }
+nav a:link {color: #D5D9C7; }
+nav a:visited { color: #497777; }
+
+footer { background-color: #688E99;
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+
+}
