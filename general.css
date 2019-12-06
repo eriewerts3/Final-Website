@@ -1,0 +1,88 @@
+* { box-sizing: border-box; }
+
+body {
+	background-image: url("general.jpg");
+	background-color: #688E99; /*Designates background color if image fails to display*/
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+	position: relative;
+	color: #D5D9C7;
+	font-family: "Arial", "Helvetica";
+
+}
+
+#wrapper { width: 85%; margin: auto;
+	background: rgba(104, 142, 153, 0.8);
+	padding: 2em;
+	
+}
+
+section {
+	float: left;
+	width: 50%;
+	padding: 70px 0; /*vertically centers text*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+section a:visited {color: #D5D9C7;}
+section a:link {color: #D5D9C7;}
+
+.onehalf {
+	content: "";
+	display: table;
+	clear: both;
+
+}
+
+header { 
+	text-align: center;
+	color: #4C6971;
+	
+}
+
+header a:visited{color: #4C6971; }
+header a:link{color: #4C6971; }
+
+h2 {margin:0; }
+
+nav { text-align: center;
+	font-weight: bold;
+	
+}
+
+nav a {text-decoration:none; }
+nav a:link {color: #D5D9C7; }
+nav a:visited { color: #497777; }
+
+nav li { display: inline;
+		padding-left: 2em;
+			width: 30%;
+}
+
+footer { background-color: #688E99;
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+	clear: both;
+
+}
+
+@media screen and (max-width: 1024px) {
+	#wrapper {width: 100%}
+		section {width: 100%;} /*Columns will stack instead of next to eachother*/
+
+}
+
+@media screen and (max-width: 600px) {
+	section {width: 100%;} /*Columns will stack instead of next to eachother*/
+	#wrapper {width: 100%}
+	nav a {float: none; width: 100%;
+			 display: flex;
+			flex-flow: row nowrap;
+		justify-content: space-around; } /*Allows nav to stack vertically */
+
+}
+
