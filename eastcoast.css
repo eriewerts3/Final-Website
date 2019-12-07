@@ -10,19 +10,20 @@ body {
 	position: relative;
 	color: #D5D9C7;
 	font-family: "Arial", "Helvetica";
-
 }
 
 #wrapper { width: 85%; margin: auto;
 	background: rgba(104, 142, 153, 0.75);
 	padding: 2em;
-	
-	
+	line-height: 125%;	
 }
+
+h2 {text-align: center;
+	color: #4C6971;}
+
 section {
 	float: left;
 	width: 50%;
-	padding: 70px 0; /*vertically centers text*/
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -32,28 +33,26 @@ section {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-
 }
 
 header { 
 	text-align: center;
-	color: #4C6971;
-	
+	font-size: 150%;
 }
 
-header a:visited{color: #4C6971; }
-header a:link{color: #4C6971; }
-
-h2 {margin:0; }
+header a:visited {color: #4C6971;
+	text-shadow: 3px 3px 5px #D5D9C7;}
+header a:link {color: #617575; 
+	text-decoration: none; 
+	text-shadow: 3px 3px 5px #D5D9C7; }
 
 nav { text-align: center;
-	font-weight: bold;
-	
+	font-weight: bold;	
 }
 
 nav a {text-decoration:none; }
-nav a:link {color: #D5D9C7; }
-nav a:visited { color: #497777; }
+nav a:link {color: #617575; }
+nav a:visited { color: #617575; }
 
 nav li { display: inline;
 		padding-left: 2em;
@@ -84,12 +83,13 @@ tr:nth-of-type(even) { background-color: #4C6971; }
 
 caption { margin: 1em;
 			font-weight: bold;
-			font-size: 125%;
+			font-size: 150%;
+			color: #4C6971;
 }
 
 @media screen and (max-width: 1024px) {
 	#wrapper {width: 100%}
-
+	section {width: 100%; align-content: center; }/*Columns will stack instead of next to eachother*/
 
 }
 

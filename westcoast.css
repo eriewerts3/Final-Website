@@ -16,7 +16,7 @@ body {
 #wrapper { width: 85%; margin: auto;
 	background-color: rgba(51, 72, 12, 0.5);
 	padding: 2em;
-	
+	line-height: 150%;
 }
 
 
@@ -42,11 +42,15 @@ right {
 
 header { 
 	text-align: center;
+	font-size: 150%;
 	
 }
 
-header a:visited{color:#33480C;}
-header a:link{color:#33480C;}
+header a:visited{color: #617575; 
+	text-shadow: 3px 3px 5px #D5D9C7; }
+header a:link{color: #617575; 
+	text-decoration: none; 
+	text-shadow: 3px 3px 5px #D5D9C7; }
 
 h2 {margin:0;}
 
@@ -56,8 +60,8 @@ nav { text-align: center;
 }
 
 nav a {text-decoration:none; }
-nav a:link {color: #D5D9C7; }
-nav a:visited { color: #497777; }
+nav a:link {color: #617575; }
+nav a:visited { color: #617575; }
 
 nav li { display: inline;
 		padding-left: 2em;
