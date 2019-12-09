@@ -1,0 +1,105 @@
+* { box-sizing: border-box; }
+
+body {
+	background-image: url("southeast.jpg");
+	background-color: #688E99; /*Designates background color if image fails to display*/
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+	position: relative;
+	color: #D5D9C7;
+	font-family: "Arial", "Helvetica";
+}
+
+#wrapper { width: 85%; margin: auto;
+	background: rgba(104, 142, 153, 0.75);
+	padding: 2em;
+	line-height: 125%;	
+}
+
+h2 {text-align: center;
+	color: #4C6971;}
+
+section {
+	float: left;
+	width: 50%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#flexbox { /*provides flexible layout to sections dependent on screen size*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+header { 
+	text-align: center;
+	font-size: 150%;
+}
+
+header a:visited {color: #4C6971;
+	text-shadow: 3px 3px 5px #D5D9C7;}
+header a:link {color: #617575; 
+	text-decoration: none; 
+	text-shadow: 3px 3px 5px #D5D9C7; }
+
+nav { text-align: center;
+	font-weight: bold;	
+}
+
+nav a {text-decoration:none; }
+nav a:link {color: #617575; }
+nav a:visited { color: #617575; }
+
+nav li { display: inline;
+		padding-left: 2em;
+			width: 30%;
+}
+
+footer { background-color: #688E99;
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+	clear: both;
+
+}
+
+/* Code for table layout */
+table { border: 2px solid #D5D9C7;
+			border-collapse: collapse;
+			margin-bottom: 2em;
+			
+}
+
+td, th { padding: 0.5em;
+		border: 2px solid #D5D9C7;
+	 
+}
+
+tr:nth-of-type(even) { background-color: #4C6971; }
+
+caption { margin: 1em;
+			font-weight: bold;
+			font-size: 150%;
+			color: #4C6971;
+}
+
+@media screen and (max-width: 1024px) {
+	#wrapper {width: 100%}
+	section {width: 100%; align-content: center; }/*Columns will stack instead of next to eachother*/
+
+}
+
+@media screen and (max-width: 600px) {
+	section {width: 100%; align-content: center; }/*Columns will stack instead of next to eachother*/
+	#wrapper {width: 100%}
+	nav a {float: none; width: 100%;
+			 display: flex;
+			flex-flow: row nowrap;
+		justify-content: space-around; } /*Allows nav to stack vertically */
+	
+
+}
