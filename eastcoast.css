@@ -18,6 +18,8 @@ body {
 	line-height: 125%;	
 }
 
+iframe {margin-left: 30%;}
+
 h2 {text-align: center;
 	color: #4C6971;}
 
@@ -90,7 +92,7 @@ caption { margin: 1em;
 @media screen and (max-width: 1024px) {
 	#wrapper {width: 100%}
 	section {width: 100%; align-content: center; }/*Columns will stack instead of next to eachother*/
-
+	
 }
 
 @media screen and (max-width: 600px) {
@@ -100,6 +102,6 @@ caption { margin: 1em;
 			 display: flex;
 			flex-flow: row nowrap;
 		justify-content: space-around; } /*Allows nav to stack vertically */
-	
+		
 
 }
