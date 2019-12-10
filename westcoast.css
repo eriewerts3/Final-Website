@@ -13,7 +13,7 @@ body {
 	
 }
 
-#wrapper { width: 85%; margin: auto;
+#wrapper { width: 55%; margin: auto;
 	background-color: rgba(51, 72, 12, 0.5);
 	padding: 2em;
 	line-height: 150%;
@@ -29,7 +29,7 @@ left {
 right {
 	float: left;
 	width: 65%;
-	padding-left: 30px;
+	padding-left: 50px;
 	
 }
 .section {
