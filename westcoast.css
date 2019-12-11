@@ -13,10 +13,16 @@ body {
 	
 }
 
-#wrapper { width: 85%; margin: auto;
+#wrapper { width: 65%; margin: auto;
 	background-color: rgba(51, 72, 12, 0.5);
 	padding: 2em;
 	line-height: 150%;
+}
+
+.vid {align-content: center;
+	width: fit-content;
+	height: 100%;
+	overflow: auto;
 }
 
 
@@ -29,7 +35,7 @@ left {
 right {
 	float: left;
 	width: 65%;
-	padding-left: 30px;
+	padding-left: 60px;
 	
 }
 .section {
@@ -73,8 +79,9 @@ footer { background-color: #33480C;
 	font-style: italic;
 	text-align: center;
 	clear: both;
-
 }
+
+footer a:link{color:#D5D9C7}
 
 @media screen and (max-width: 1024px) {
 	#wrapper {width: 100%}
