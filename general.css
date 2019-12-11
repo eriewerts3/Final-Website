@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 body {
-	background-image: url("general.jpg");
+	background-image: url("Images/general.jpg");
 	background-color: #688E99; /*Designates background color if image fails to display*/
 	background-size: auto;
 	background-repeat: no-repeat;
@@ -48,15 +48,17 @@ nav a:visited { color: #617575; }
 
 nav li { display: inline;
 		padding-left: 2em;
-			width: 30%;
 }
 
-footer { background-color: #688E99;
+footer {background-color: #688E99;
 	font-size: small;
 	font-style: italic;
 	text-align: center;
-	clear: both;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
 }
+
 footer a:link{color:#D5D9C7}
 
 @media screen and (max-width: 1024px) {

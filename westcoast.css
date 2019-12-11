@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 body {
-	background-image: url("Northwest.jpg");
+	background-image: url("Images/Northwest.jpg");
 	background-color: #5A6672; /*Designates background color if image fails to display*/
 	background-size: auto;
 	background-repeat: no-repeat;
