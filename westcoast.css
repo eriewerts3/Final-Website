@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 body {
-	background-image: url("Images/Northwest.jpg");
+	background-image: url("images/Northwest.jpg");
 	background-color: #5A6672; /*Designates background color if image fails to display*/
 	background-size: auto;
 	background-repeat: no-repeat;
@@ -47,7 +47,7 @@ right {
 
 header { 
 	text-align: center;
-	font-size: 150%;s
+	font-size: 150%;
 }
 
 header a:visited{color: #617575; 
