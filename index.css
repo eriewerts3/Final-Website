@@ -31,7 +31,7 @@ left {
 	float: left;
 	width: 50%;
 	height: 80vh; 
-	background-image: url("Northwest.jpg");
+	background-image: url("Images/Northwest.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
@@ -98,7 +98,8 @@ h2 {margin:0;
 }
 
 nav { text-align: center;
-	font-weight: bold;	
+	font-weight: bold;
+	padding-right: 50px;	
 }
 
 nav a {text-decoration:none; }
@@ -107,7 +108,6 @@ nav a:visited { color: #617575;  }
 
 nav li { display: inline;
 		padding-left: 2em;
-			width: 30%;
 }
 
 footer { background-color: #688E99;

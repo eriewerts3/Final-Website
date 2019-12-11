@@ -47,8 +47,7 @@ right {
 
 header { 
 	text-align: center;
-	font-size: 150%;
-	
+	font-size: 150%;s
 }
 
 header a:visited{color: #617575; 
@@ -61,6 +60,7 @@ h2 {margin:0;}
 
 nav { text-align: center;
 	font-weight: bold;
+	padding-right: 50px;
 	
 }
 
@@ -70,7 +70,6 @@ nav a:visited { color: #617575; }
 
 nav li { display: inline;
 		padding-left: 2em;
-		width: 30%;
 }
 
 
