@@ -37,6 +37,7 @@ section {
 	justify-content: space-around;
 }
 
+
 header { 
 	text-align: center;
 	font-size: 150%;
@@ -58,7 +59,6 @@ nav a:visited { color: #7E9494; }
 
 nav li { display: inline;
 		padding-left: 2em;
-			width: 30%;
 }
 
 footer { background-color: #688E99;
