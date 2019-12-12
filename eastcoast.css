@@ -15,7 +15,7 @@ body {
 #wrapper { width: 85%; margin: auto;
 	background: rgba(104, 142, 153, 0.75);
 	padding: 2em;
-	line-height: 125%;	
+	line-height: 150%;	
 }
 
 iframe {margin-left: 30%;}
@@ -42,19 +42,27 @@ header {
 	font-size: 150%;
 }
 
-header a:visited {color: #4C6971;
-	text-shadow: 3px 3px 5px #D5D9C7;}
+header a:visited {color: #617575; 
+	text-shadow: 2px 2px 8px #D5D9C7; }
 header a:link {color: #617575; 
 	text-decoration: none; 
-	text-shadow: 3px 3px 5px #D5D9C7; }
+	font-weight: bold; 
+	text-shadow: 2px 2px 8px #D5D9C7; }
 
 nav { text-align: center;
 	font-weight: bold;	
 }
 
 nav a {text-decoration:none; }
+<<<<<<< Updated upstream
 nav a:link {color:#7E9494; }
 nav a:visited { color: #7E9494; }
+=======
+nav a:link { color: #617575; 
+	text-shadow: 2px 1px 2px #D5D9C7; }
+nav a:visited {color: #617575; 
+	text-shadow: 2px 1px 2px #D5D9C7; }
+>>>>>>> Stashed changes
 
 nav li { display: inline;
 		padding-left: 2em;
