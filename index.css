@@ -7,14 +7,14 @@ body {
 }
 
 #leftwrapper { 
-	width: 85%; height: 65%; margin: auto;
+	width: 85%; margin: auto;
 	background: rgba(104, 142, 153, 0.8);
 	padding: 2em;
 	line-height: 150%;	
 }
 
 #rightwrapper { 
-	width: 85%; height: 65%; margin: auto;
+	width: 85%; margin: auto;
 	background: rgba(104, 142, 153, 0.8);
 	padding: 2em;
 	line-height: 150%;	
@@ -103,8 +103,10 @@ nav { text-align: center;
 }
 
 nav a {text-decoration:none; }
-nav a:link {color: #617575;  }
-nav a:visited { color: #617575;  }
+nav a:link { color: #617575; 
+	text-shadow: 2px 1px 2px #D5D9C7; }
+nav a:visited {color: #617575; 
+	text-shadow: 2px 1px 2px #D5D9C7; }
 
 nav li { display: inline;
 		padding-left: 2em;
