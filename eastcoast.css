@@ -53,8 +53,8 @@ nav { text-align: center;
 }
 
 nav a {text-decoration:none; }
-nav a:link {color: #617575; }
-nav a:visited { color: #617575; }
+nav a:link {color:#7E9494; }
+nav a:visited { color: #7E9494; }
 
 nav li { display: inline;
 		padding-left: 2em;
