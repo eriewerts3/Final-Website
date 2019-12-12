@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 body {
-	background-image: url("Northwest.jpg");
+	background-image: url("images/Northwest.jpg");
 	background-color: #5A6672; /*Designates background color if image fails to display*/
 	background-size: auto;
 	background-repeat: no-repeat;
@@ -13,42 +13,28 @@ body {
 	
 }
 
-<<<<<<< Updated upstream
+
 #wrapper { width: 55%; margin: auto;
 	background-color: rgba(51, 72, 12, 0.5);
-=======
-#wrapper { width: 60%; margin: auto;
-	background-color: rgba(104, 142, 153, 0.75);
->>>>>>> Stashed changes
 	padding: 2em;
 	line-height: 150%;
+}
+
+.vid {align-content: center;
+	width: fit-content;
+	height: 100%;
+	overflow: auto;
 }
 
 
 /*seperate left and right classes to create unequal sections to distribute text property thoughout page*/
 section {
 	float: left;
-<<<<<<< Updated upstream
-	width: 35%;
-	padding: 70px 0; /*vertically centers text*/
-}
-right {
-	float: left;
-	width: 65%;
-	padding-left: 50px;
-	
-}
-.section {
-	content: "";
-	display: table;
-	clear: both;
-=======
 	width: 50%;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 20px;
 	align-content: center;
->>>>>>> Stashed changes
 }
 
 #flexbox { /*provides flexible layout to sections dependent on screen size*/
@@ -61,7 +47,6 @@ right {
 header { 
 	text-align: center;
 	font-size: 150%;
-	
 }
 
 header a:visited {color: #617575; 
@@ -75,6 +60,7 @@ h2 {margin:0;}
 
 nav { text-align: center;
 	font-weight: bold;
+	padding-right: 50px;
 	
 }
 
@@ -86,7 +72,6 @@ nav a:visited {color: #617575;
 
 nav li { display: inline;
 		padding-left: 2em;
-		width: 30%;
 }
 
 
@@ -95,13 +80,12 @@ footer { background-color: #688E99;
 	font-style: italic;
 	text-align: center;
 	clear: both;
-
 }
+
+footer a:link{color:#D5D9C7}
 
 @media screen and (max-width: 1024px) {
 	#wrapper {width: 100%}
-
-
 }
 
 @media screen and (max-width: 600px) {

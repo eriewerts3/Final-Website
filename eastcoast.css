@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 body {
-	background-image: url("southeast.jpg");
+	background-image: url("images/Southeast.jpg");
 	background-color: #688E99; /*Designates background color if image fails to display*/
 	background-size: auto;
 	background-repeat: no-repeat;
@@ -17,8 +17,6 @@ body {
 	padding: 2em;
 	line-height: 150%;	
 }
-
-iframe {margin-left: 30%;}
 
 h2 {text-align: center;
 	color: #4C6971;}
@@ -36,6 +34,11 @@ section {
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
+.vid {align-content: center;
+	width: fit-content;
+	height: 100%;
+	overflow: auto;
+}
 
 header { 
 	text-align: center;
@@ -50,23 +53,20 @@ header a:link {color: #617575;
 	text-shadow: 2px 2px 8px #D5D9C7; }
 
 nav { text-align: center;
-	font-weight: bold;	
+	font-weight: bold;
+	padding-right: 50px;	
 }
 
 nav a {text-decoration:none; }
-<<<<<<< Updated upstream
-nav a:link {color:#7E9494; }
-nav a:visited { color: #7E9494; }
-=======
+
 nav a:link { color: #617575; 
 	text-shadow: 2px 1px 2px #D5D9C7; }
 nav a:visited {color: #617575; 
 	text-shadow: 2px 1px 2px #D5D9C7; }
->>>>>>> Stashed changes
+
 
 nav li { display: inline;
 		padding-left: 2em;
-			width: 30%;
 }
 
 footer { background-color: #688E99;
@@ -74,8 +74,8 @@ footer { background-color: #688E99;
 	font-style: italic;
 	text-align: center;
 	clear: both;
-
 }
+footer a:link{color:#D5D9C7}
 
 /* Code for table layout */
 table { border: 2px solid #D5D9C7;
@@ -100,7 +100,6 @@ caption { margin: 1em;
 @media screen and (max-width: 1024px) {
 	#wrapper {width: 100%}
 	section {width: 100%; align-content: center; }/*Columns will stack instead of next to eachother*/
-	
 }
 
 @media screen and (max-width: 600px) {
@@ -110,6 +109,4 @@ caption { margin: 1em;
 			 display: flex;
 			flex-flow: row nowrap;
 		justify-content: space-around; } /*Allows nav to stack vertically */
-		
-
 }

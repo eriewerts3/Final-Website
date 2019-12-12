@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 body {
-	background-image: url("general.jpg");
+	background-image: url("images/general.jpg");
 	background-color: #688E99; /*Designates background color if image fails to display*/
 	background-size: auto;
 	background-repeat: no-repeat;
@@ -12,11 +12,7 @@ body {
 	font-family: "Arial", "Helvetica";
 }
 
-<<<<<<< Updated upstream
-#wrapper { width: 65%; margin: auto;
-=======
 #wrapper { width: 85%; hieght: 85%; margin: auto;
->>>>>>> Stashed changes
 	background: rgba(104, 142, 153, 0.8);
 	padding: 15px;
 	line-height: 200%;
@@ -43,7 +39,7 @@ h3 {text-align: center; }
 
 nav { text-align: center;
 	font-weight: bold;
-	
+	padding-right: 50px;
 }
 
 nav a {text-decoration:none; }
@@ -54,21 +50,6 @@ nav a:visited {color: #617575;
 
 nav li { display: inline;
 		padding-left: 2em;
-			width: 30%;
-}
-
-footer { background-color: #688E99;
-	font-size: small;
-	font-style: italic;
-	text-align: center;
-	clear: both;
-<<<<<<< Updated upstream
-	position: fixed;
-	width: 100%;
-	bottom: 0px;
-}
-
-=======
 }
 
 footer { background-color: #688E99;
@@ -77,10 +58,9 @@ footer { background-color: #688E99;
 	text-align: center;
 	clear: both;
 }
+
 footer a:link{color:#D5D9C7}
 
-
->>>>>>> Stashed changes
 @media screen and (max-width: 1024px) {
 	#wrapper {width: 100%}
 		left {width: 100%;} /*Columns will stack instead of next to eachother*/
